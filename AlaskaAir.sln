@@ -7,6 +7,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlaskaAir", "AlaskaAir\Alas
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlaskaAir.Tests", "AlaskaAir.Tests\AlaskaAir.Tests.csproj", "{675D796A-CB5C-489D-93A1-03CE2453A6C1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{9E5A0906-FA1D-4374-8B53-B87C838D496A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{26E85BF9-865F-4D48-A75A-5202C9B44211}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess.Tests", "DataAccess.Tests", "{C2182DDA-C971-4E44-9E9E-A6091A2D29FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess", "DataAccess\DataAccess.csproj", "{FB5287AC-EF9E-4E50-971D-E3B628482E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Tests", "DataAccess.Tests\DataAccess.Tests.csproj", "{171C3FCA-C031-4176-8544-8C969E86C550}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,8 +31,21 @@ Global
 		{675D796A-CB5C-489D-93A1-03CE2453A6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{675D796A-CB5C-489D-93A1-03CE2453A6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{675D796A-CB5C-489D-93A1-03CE2453A6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB5287AC-EF9E-4E50-971D-E3B628482E59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB5287AC-EF9E-4E50-971D-E3B628482E59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB5287AC-EF9E-4E50-971D-E3B628482E59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB5287AC-EF9E-4E50-971D-E3B628482E59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171C3FCA-C031-4176-8544-8C969E86C550}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171C3FCA-C031-4176-8544-8C969E86C550}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171C3FCA-C031-4176-8544-8C969E86C550}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171C3FCA-C031-4176-8544-8C969E86C550}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C2182DDA-C971-4E44-9E9E-A6091A2D29FB} = {26E85BF9-865F-4D48-A75A-5202C9B44211}
+		{FB5287AC-EF9E-4E50-971D-E3B628482E59} = {26E85BF9-865F-4D48-A75A-5202C9B44211}
+		{171C3FCA-C031-4176-8544-8C969E86C550} = {C2182DDA-C971-4E44-9E9E-A6091A2D29FB}
 	EndGlobalSection
 EndGlobal
